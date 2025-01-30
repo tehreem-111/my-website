@@ -5,6 +5,7 @@ import Header from '../component/header'
 import Review from './review'
 import ReviewMore from './reviewmore'
 import ReviewLast from './reviewlast'
+import Like from './like'
 
 const shop = () => {
   return (
@@ -15,6 +16,7 @@ const shop = () => {
         <Review/>
         <ReviewMore/>
         <ReviewLast/>
+        <Like/>
     </div>
   )
 }
