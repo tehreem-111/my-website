@@ -48,7 +48,7 @@ let products = [
 const Like= () =>{
   return (
     <div className="max-w-5xl mx-auto p-5 bg-white" >
-      <h1 className="text-center text-3xl font-extrabold mb-5" >NEW ARRIVALS</h1>
+      <h1 className="text-center text-3xl font-extrabold mb-5" >You Might Also Like</h1>
       <div className="flex flex-wrap gap-5 justify-center">
         {products.map((product, index) => (
           <div className="w-48 border-gray-300 rounded-lg p-4 text-center bg-gray transition-transform transform-hover:scale-105" key={index}>
