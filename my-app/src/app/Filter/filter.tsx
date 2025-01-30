@@ -68,9 +68,9 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <h1 className="text-2xl font-bold mb-6">Casual</h1>
+        <h1 className="text-2xl font-bold mb-4">Casual</h1>
 
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex flex-col lg:flex-row gap-2">
           {/* Sidebar Filters */}
           <div className="bg-white p-4 rounded shadow-md w-full lg:w-[295px] lg:h-auto">
             <h2 className="font-semibold mb-4">Filters</h2>
@@ -81,7 +81,7 @@ const Home = () => {
               <ul className="space-y-2">
                 {['T-shirts', 'Shirts', 'Shorts', 'Jeans'].map((item) => (
                   <li key={item}>
-                    <label className="flex items-center space-x-2">
+                    <label className="flex items-center space-x-1">
                       <input type="checkbox" className="text-indigo-600" />
                       <span>{item}</span>
                     </label>
@@ -146,7 +146,7 @@ const Home = () => {
 
           {/* Product Grid */}
           <div className="flex-1">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
               {products.map((product, index) => (
                 <div key={index} className="bg-white p-4 rounded shadow hover:shadow-lg">
                   {/* Product Image */}
